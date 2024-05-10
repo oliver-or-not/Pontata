@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5745D5D12BEE4A38008BBFAF /* PonyBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745D5CF2BEE4A38008BBFAF /* PonyBallTests.swift */; };
+		5745D5D32BEE4AA0008BBFAF /* ClearButtonCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745D5D22BEE4AA0008BBFAF /* ClearButtonCV.swift */; };
+		57D27A602BEE49D900AFF5CA /* AddButtonCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A4D2BEE49D900AFF5CA /* AddButtonCV.swift */; };
+		57D27A612BEE49D900AFF5CA /* PhysicalCircleCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A4E2BEE49D900AFF5CA /* PhysicalCircleCV.swift */; };
+		57D27A622BEE49D900AFF5CA /* SubtractButtonCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A4F2BEE49D900AFF5CA /* SubtractButtonCV.swift */; };
+		57D27A632BEE49D900AFF5CA /* PonyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A512BEE49D900AFF5CA /* PonyBall.swift */; };
+		57D27A642BEE49D900AFF5CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D27A532BEE49D900AFF5CA /* Preview Assets.xcassets */; };
+		57D27A652BEE49D900AFF5CA /* UnifiedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A552BEE49D900AFF5CA /* UnifiedInfo.swift */; };
+		57D27A662BEE49D900AFF5CA /* Bound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A572BEE49D900AFF5CA /* Bound.swift */; };
+		57D27A672BEE49D900AFF5CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A592BEE49D900AFF5CA /* ContentView.swift */; };
+		57D27A682BEE49D900AFF5CA /* InterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A5A2BEE49D900AFF5CA /* InterfaceView.swift */; };
+		57D27A692BEE49D900AFF5CA /* StageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A5B2BEE49D900AFF5CA /* StageView.swift */; };
+		57D27A6A2BEE49D900AFF5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D27A5D2BEE49D900AFF5CA /* Assets.xcassets */; };
+		57D27A6B2BEE49D900AFF5CA /* PontataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A5E2BEE49D900AFF5CA /* PontataApp.swift */; };
+		57D27A782BEE4A0D00AFF5CA /* PonyBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A752BEE4A0D00AFF5CA /* PonyBallUITests.swift */; };
+		57D27A792BEE4A0D00AFF5CA /* PonyBallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D27A762BEE4A0D00AFF5CA /* PonyBallUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5781AE702BED153300B5CE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5781AE572BED153200B5CE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5781AE5E2BED153200B5CE79;
+			remoteInfo = PonyBall;
+		};
+		5781AE7A2BED153300B5CE79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5781AE572BED153200B5CE79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5781AE5E2BED153200B5CE79;
+			remoteInfo = PonyBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5745D5CF2BEE4A38008BBFAF /* PonyBallTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyBallTests.swift; sourceTree = "<group>"; };
+		5745D5D22BEE4AA0008BBFAF /* ClearButtonCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonCV.swift; sourceTree = "<group>"; };
+		5781AE5F2BED153200B5CE79 /* Pontata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pontata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5781AE6F2BED153300B5CE79 /* PontataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5781AE792BED153300B5CE79 /* PontataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D27A4D2BEE49D900AFF5CA /* AddButtonCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddButtonCV.swift; sourceTree = "<group>"; };
+		57D27A4E2BEE49D900AFF5CA /* PhysicalCircleCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicalCircleCV.swift; sourceTree = "<group>"; };
+		57D27A4F2BEE49D900AFF5CA /* SubtractButtonCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtractButtonCV.swift; sourceTree = "<group>"; };
+		57D27A512BEE49D900AFF5CA /* PonyBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyBall.swift; sourceTree = "<group>"; };
+		57D27A532BEE49D900AFF5CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57D27A552BEE49D900AFF5CA /* UnifiedInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnifiedInfo.swift; sourceTree = "<group>"; };
+		57D27A572BEE49D900AFF5CA /* Bound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bound.swift; sourceTree = "<group>"; };
+		57D27A592BEE49D900AFF5CA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57D27A5A2BEE49D900AFF5CA /* InterfaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceView.swift; sourceTree = "<group>"; };
+		57D27A5B2BEE49D900AFF5CA /* StageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StageView.swift; sourceTree = "<group>"; };
+		57D27A5D2BEE49D900AFF5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D27A5E2BEE49D900AFF5CA /* PontataApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PontataApp.swift; sourceTree = "<group>"; };
+		57D27A752BEE4A0D00AFF5CA /* PonyBallUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyBallUITests.swift; sourceTree = "<group>"; };
+		57D27A762BEE4A0D00AFF5CA /* PonyBallUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PonyBallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5781AE5C2BED153200B5CE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE6C2BED153300B5CE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE762BED153300B5CE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5745D5D02BEE4A38008BBFAF /* PontataTests */ = {
+			isa = PBXGroup;
+			children = (
+				5745D5CF2BEE4A38008BBFAF /* PonyBallTests.swift */,
+			);
+			path = PontataTests;
+			sourceTree = "<group>";
+		};
+		5781AE562BED153200B5CE79 = {
+			isa = PBXGroup;
+			children = (
+				57D27A5F2BEE49D900AFF5CA /* Pontata */,
+				5745D5D02BEE4A38008BBFAF /* PontataTests */,
+				57D27A772BEE4A0D00AFF5CA /* PontataUITests */,
+				5781AE602BED153200B5CE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5781AE602BED153200B5CE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5781AE5F2BED153200B5CE79 /* Pontata.app */,
+				5781AE6F2BED153300B5CE79 /* PontataTests.xctest */,
+				5781AE792BED153300B5CE79 /* PontataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D27A502BEE49D900AFF5CA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A4D2BEE49D900AFF5CA /* AddButtonCV.swift */,
+				57D27A4E2BEE49D900AFF5CA /* PhysicalCircleCV.swift */,
+				57D27A4F2BEE49D900AFF5CA /* SubtractButtonCV.swift */,
+				5745D5D22BEE4AA0008BBFAF /* ClearButtonCV.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		57D27A522BEE49D900AFF5CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A512BEE49D900AFF5CA /* PonyBall.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57D27A542BEE49D900AFF5CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A532BEE49D900AFF5CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57D27A562BEE49D900AFF5CA /* StateModel */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A552BEE49D900AFF5CA /* UnifiedInfo.swift */,
+			);
+			path = StateModel;
+			sourceTree = "<group>";
+		};
+		57D27A582BEE49D900AFF5CA /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A572BEE49D900AFF5CA /* Bound.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		57D27A5C2BEE49D900AFF5CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A592BEE49D900AFF5CA /* ContentView.swift */,
+				57D27A5A2BEE49D900AFF5CA /* InterfaceView.swift */,
+				57D27A5B2BEE49D900AFF5CA /* StageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57D27A5F2BEE49D900AFF5CA /* Pontata */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A5C2BEE49D900AFF5CA /* View */,
+				57D27A502BEE49D900AFF5CA /* Component */,
+				57D27A522BEE49D900AFF5CA /* Model */,
+				57D27A542BEE49D900AFF5CA /* Preview Content */,
+				57D27A562BEE49D900AFF5CA /* StateModel */,
+				57D27A582BEE49D900AFF5CA /* Type */,
+				57D27A5D2BEE49D900AFF5CA /* Assets.xcassets */,
+				57D27A5E2BEE49D900AFF5CA /* PontataApp.swift */,
+			);
+			path = Pontata;
+			sourceTree = "<group>";
+		};
+		57D27A772BEE4A0D00AFF5CA /* PontataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57D27A752BEE4A0D00AFF5CA /* PonyBallUITests.swift */,
+				57D27A762BEE4A0D00AFF5CA /* PonyBallUITestsLaunchTests.swift */,
+			);
+			path = PontataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5781AE5E2BED153200B5CE79 /* Pontata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781AE832BED153300B5CE79 /* Build configuration list for PBXNativeTarget "Pontata" */;
+			buildPhases = (
+				5781AE5B2BED153200B5CE79 /* Sources */,
+				5781AE5C2BED153200B5CE79 /* Frameworks */,
+				5781AE5D2BED153200B5CE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pontata;
+			productName = PonyBall;
+			productReference = 5781AE5F2BED153200B5CE79 /* Pontata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5781AE6E2BED153300B5CE79 /* PontataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781AE862BED153300B5CE79 /* Build configuration list for PBXNativeTarget "PontataTests" */;
+			buildPhases = (
+				5781AE6B2BED153300B5CE79 /* Sources */,
+				5781AE6C2BED153300B5CE79 /* Frameworks */,
+				5781AE6D2BED153300B5CE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5781AE712BED153300B5CE79 /* PBXTargetDependency */,
+			);
+			name = PontataTests;
+			productName = PonyBallTests;
+			productReference = 5781AE6F2BED153300B5CE79 /* PontataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5781AE782BED153300B5CE79 /* PontataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781AE892BED153300B5CE79 /* Build configuration list for PBXNativeTarget "PontataUITests" */;
+			buildPhases = (
+				5781AE752BED153300B5CE79 /* Sources */,
+				5781AE762BED153300B5CE79 /* Frameworks */,
+				5781AE772BED153300B5CE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5781AE7B2BED153300B5CE79 /* PBXTargetDependency */,
+			);
+			name = PontataUITests;
+			productName = PonyBallUITests;
+			productReference = 5781AE792BED153300B5CE79 /* PontataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5781AE572BED153200B5CE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5781AE5E2BED153200B5CE79 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5781AE6E2BED153300B5CE79 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5781AE5E2BED153200B5CE79;
+					};
+					5781AE782BED153300B5CE79 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5781AE5E2BED153200B5CE79;
+					};
+				};
+			};
+			buildConfigurationList = 5781AE5A2BED153200B5CE79 /* Build configuration list for PBXProject "Pontata" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5781AE562BED153200B5CE79;
+			productRefGroup = 5781AE602BED153200B5CE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5781AE5E2BED153200B5CE79 /* Pontata */,
+				5781AE6E2BED153300B5CE79 /* PontataTests */,
+				5781AE782BED153300B5CE79 /* PontataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5781AE5D2BED153200B5CE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D27A6A2BEE49D900AFF5CA /* Assets.xcassets in Resources */,
+				57D27A642BEE49D900AFF5CA /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE6D2BED153300B5CE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE772BED153300B5CE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5781AE5B2BED153200B5CE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D27A602BEE49D900AFF5CA /* AddButtonCV.swift in Sources */,
+				57D27A612BEE49D900AFF5CA /* PhysicalCircleCV.swift in Sources */,
+				57D27A682BEE49D900AFF5CA /* InterfaceView.swift in Sources */,
+				57D27A672BEE49D900AFF5CA /* ContentView.swift in Sources */,
+				57D27A692BEE49D900AFF5CA /* StageView.swift in Sources */,
+				57D27A662BEE49D900AFF5CA /* Bound.swift in Sources */,
+				5745D5D32BEE4AA0008BBFAF /* ClearButtonCV.swift in Sources */,
+				57D27A632BEE49D900AFF5CA /* PonyBall.swift in Sources */,
+				57D27A652BEE49D900AFF5CA /* UnifiedInfo.swift in Sources */,
+				57D27A6B2BEE49D900AFF5CA /* PontataApp.swift in Sources */,
+				57D27A622BEE49D900AFF5CA /* SubtractButtonCV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE6B2BED153300B5CE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5745D5D12BEE4A38008BBFAF /* PonyBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781AE752BED153300B5CE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D27A792BEE4A0D00AFF5CA /* PonyBallUITestsLaunchTests.swift in Sources */,
+				57D27A782BEE4A0D00AFF5CA /* PonyBallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5781AE712BED153300B5CE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5781AE5E2BED153200B5CE79 /* Pontata */;
+			targetProxy = 5781AE702BED153300B5CE79 /* PBXContainerItemProxy */;
+		};
+		5781AE7B2BED153300B5CE79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5781AE5E2BED153200B5CE79 /* Pontata */;
+			targetProxy = 5781AE7A2BED153300B5CE79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5781AE812BED153300B5CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5781AE822BED153300B5CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5781AE842BED153300B5CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pontata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.Pontata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5781AE852BED153300B5CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pontata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.Pontata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5781AE872BED153300B5CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.PonyBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pontata.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pontata";
+			};
+			name = Debug;
+		};
+		5781AE882BED153300B5CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.PonyBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pontata.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pontata";
+			};
+			name = Release;
+		};
+		5781AE8A2BED153300B5CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.PonyBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PonyBall;
+			};
+			name = Debug;
+		};
+		5781AE8B2BED153300B5CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fineliner.PonyBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PonyBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5781AE5A2BED153200B5CE79 /* Build configuration list for PBXProject "Pontata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781AE812BED153300B5CE79 /* Debug */,
+				5781AE822BED153300B5CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781AE832BED153300B5CE79 /* Build configuration list for PBXNativeTarget "Pontata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781AE842BED153300B5CE79 /* Debug */,
+				5781AE852BED153300B5CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781AE862BED153300B5CE79 /* Build configuration list for PBXNativeTarget "PontataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781AE872BED153300B5CE79 /* Debug */,
+				5781AE882BED153300B5CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781AE892BED153300B5CE79 /* Build configuration list for PBXNativeTarget "PontataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781AE8A2BED153300B5CE79 /* Debug */,
+				5781AE8B2BED153300B5CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5781AE572BED153200B5CE79 /* Project object */;
+}
